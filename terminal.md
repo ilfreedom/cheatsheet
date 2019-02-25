@@ -2,27 +2,31 @@
 ## screen & tmux
 
 ### session
-| function               | screen                    | tmux                              |
-| ---------------------- | ------------------------- | --------------------------------- |
-| new session            | screen -S session_name    | tmux new -s session_name          |
-| detach session         | C-a d                     | C-b d                             |
-| kill session           | C-a  \\                   |                                   |
-| list session           | screen -ls                | tmux ls                           |
-| attach session         | screen -r session_name    | tmux a -t session_name or tmux a  |
-| attach running session | screen -x                 |                                   |
-| remote detach session  | screen -d session_name    |                                   |
-| remote kill session    | screen -X -S session quit | tmux kill-session -t session_name |
-| remote kill all        |                           | tmux kill-server                  |
-| clear dead session     | screen -wipe              |                                   |
+| function                 | screen                                                     | tmux                              |
+| ------------------------ | ---------------------------------------------------------- | --------------------------------- |
+| new session              | screen -S session_name                                     | tmux new -s session_name          |
+| detach session           | C-a d                                                      | C-b d                             |
+| kill session             | C-a  \\                                                    | exit                              |
+| list session             | screen -ls                                                 | tmux ls <br> C-b s                |
+| attach session           | screen -r session_name                                     | tmux a -t session_name or tmux a  |
+| attach running session   | screen -x                                                  |                                   |
+| switch session           |                                                            | C-b (/)                           |
+| rename session           | C-a :sessionname new <br> screen -S old -X sessionname new | C-b $                             |
+| remote detach session    | screen -d session_name                                     |                                   |
+| remote kill session      | screen -X -S session_name quit                             | tmux kill-session -t session_name |
+| kill all session but cur |                                                            | tmux kill-session -a              |
+| remote kill all          |                                                            | tmux kill-server                  |
+| clear dead session       | screen -wipe                                               |                                   |
 
 ### split
-| function        | screen                      | tmux           |
-| --------------- | --------------------------- | -------------- |
-| split H         | C-a S                       | C-b "          |
-| split V         | C-a \|                      | C-b %          |
-| remove cur pane | C-a X                       |                |
-| go to splic     | C-a tab                     | C-b arrow or o |
-| move the pane   | C-a :resize p%/max/min/-b = | C-b {/}        |
+| function          | screen                      | tmux           |
+| ----------------- | --------------------------- | -------------- |
+| split H           | C-a S                       | C-b "          |
+| split V           | C-a \|                      | C-b %          |
+| close cur pane    | C-a X                       |                |
+| close all but cur | C-a Q                       |                |
+| go to pane        | C-a tab                     | C-b arrow or o |
+| resize the pane   | C-a :resize p%/max/min/-b = | C-b {/}        |
 
 
 ### window
@@ -30,9 +34,12 @@
 | ----------------- | --------------- | ---------------- |
 | create window     | C-a c           | C-b c            |
 | switch window     | C-a n/p C-a 0-9 | C-b n/p  C-b 0-9 |
-| list all window   | C-a w           | C-b w            |
-| kill window       | C-a K           | C-b &            |
 | switch two window | C-a C-a         | C-b l            |
+| switch by order   | C-a [Space]     |                  |
+| rename window     | C-a A           |                  |
+| lock cur window   | C-a x           |                  |
+| list all window   | C-a " or C-a w  | C-b w            |
+| kill window       | C-a k           | C-b &            |
 
 ## terminator & iterm2
 
