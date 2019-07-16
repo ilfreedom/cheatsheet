@@ -10,7 +10,7 @@
 | list session             | screen -ls                                                 | tmux ls <br> C-b s                |
 | attach session           | screen -r session_name                                     | tmux a -t session_name or tmux a  |
 | attach running session   | screen -x                                                  |                                   |
-| switch session           |                                                            | C-b (/)                           |
+| switch session           |                                                            |                                   |
 | rename session           | C-a :sessionname new <br> screen -S old -X sessionname new | C-b $                             |
 | remote detach session    | screen -d session_name                                     |                                   |
 | remote kill session      | screen -X -S session_name quit                             | tmux kill-session -t session_name |
@@ -40,6 +40,15 @@
 | lock cur window   | C-a x           |                  |
 | list all window   | C-a " or C-a w  | C-b w            |
 | kill window       | C-a k           | C-b &            |
+
+### copy mode
+| function                       | screen       | tmux |
+| ------------------------------ | ------------ | ---- |
+| switch copy mode               | C-a [ or esc |      |
+| page up/down by half of screen | Ctrl - u/d   |      |
+| page up/dwon by a full screen  | Ctrl - b/f   |      |
+
+
 
 ## terminator & iterm2
 
