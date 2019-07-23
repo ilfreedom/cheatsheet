@@ -19,14 +19,17 @@
 | clear dead session       | screen -wipe                                               |                                   |
 
 ### split
-| function          | screen                      | tmux           |
-| ----------------- | --------------------------- | -------------- |
-| split H           | C-a S                       | C-b "          |
-| split V           | C-a \|                      | C-b %          |
-| close cur pane    | C-a X                       |                |
-| close all but cur | C-a Q                       |                |
-| go to pane        | C-a tab                     | C-b arrow or o |
-| resize the pane   | C-a :resize p%/max/min/-b = | C-b {/}        |
+| function             | screen                      | tmux                    |
+| -------------------- | --------------------------- | ----------------------- |
+| split H              | C-a S                       | C-b "                   |
+| split V              | C-a \|                      | C-b %                   |
+| close cur pane       | C-a X                       | C-b x                   |
+| close all but cur    | C-a Q                       |                         |
+| go to pane           | C-a tab                     | C-b arrow or o or ⌥ + ⇧ |
+| resize the pane      | C-a :resize p%/max/min/-b = | C-b follow by  ⌥ + ⇧    |
+| toogle pane zoom     |                             | C-b z                   |
+| switch pane position |                             | C-b {/}                 |
+
 
 
 ### window
@@ -69,8 +72,10 @@
 | Undo                             | Ctrl -                    |                      |
 | Split Window V                   | ⌘ + D                     | Ctrl+Shift+O         |
 | Split Window H                   | ⌘ + Shift + D             | Ctrl+Shift+E         |
-| Go to Split                      | ⌘ + Option + Arrow        | Alt + Arrow          |
+| Go to Split                      | ⌘ + ⌥ + ⇧                 | Alt + Arrow          |
 | Go to Split Pane by Order        | ⌘ + ] , ⌘ + [             |                      |
+| resize the split                 | ⌘ ^ ⇧                     | Ctrl+Shift+Left/Down |
+| Close current Pane               | ⌘ + w                     |                      |
 | Go to head/tail                  | Ctrl + A, Ctrl + E        |                      |
 | Move forward/backward word       | Option + F/B or Esc + F/B |                      |
 | Del cur char                     | Ctrl + D                  |                      |
@@ -82,5 +87,4 @@
 | Char Selection Mode in Copy Mode | Ctrl + V                  |                      |
 | Move cursor in Copy Mode         | vim motions               |                      |
 | Copy text in Copy Mode           | Ctrl + K                  |                      |
-| move the split windows           |                           | Ctrl+Shift+Left/Down |
 |                                  |                           |                      |
