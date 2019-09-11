@@ -3,17 +3,21 @@
 
 | function           | macOS         | Windows and Linux |
 | ------------------ | ------------- | ----------------- |
-| copy line          | ⇧⌥↓ / ⇧⌥↑     |                   |
+| copy line          | ⇧ + ⌥ ↓ / ↑   |                   |
+| delete line        | ⇧ + ⌘ K       |                   |
 | foldAll            | ⌘ + K, ⌘ + 0  |                   |
 | unfold All         | ⌘ + K, ⌘ + J  |                   |
 | fold/unfold region | ⌥ + ⌘ + [ / ] |                   |
+| multi cursor       | ⌥ + ⌘ ↑/↓     |                   |
+| join lines         | ⌃ J           |                   |
+| toggle word wrap   | ⌥ Z           |                   |
+
 
 
 ## intellij
-| function              | macOS         | Windows and Linux |
-| --------------------- | ------------- | ----------------- |
-| Expand/collapse all   | ⌘ ⇧ + / ⌘ ⇧ - |                   |
-| Expand/collapse block | ⌘ + / ⌘ -     |                   |
-| Navigate bw/fw        | ⌘ ⌥ ← / ⌘ ⌥ → |                   |
-| Navigate last edit    | ⌘ ⇧ Backspace |                   |
-v
+| function              | macOS           | Windows and Linux |
+| --------------------- | --------------- | ----------------- |
+| Expand/collapse all   | ⌘ ⇧ + / ⌘ ⇧ -   |                   |
+| Expand/collapse block | ⌘ + / ⌘ -       |                   |
+| Navigate bw/fw        | ⌘ + ⌥ ← / ⌘ ⌥ → |                   |
+| Navigate last edit    | ⌘ + ⇧ Backspace |                   |

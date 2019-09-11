@@ -45,11 +45,11 @@
 | kill window       | C-a k           | C-b &            |
 
 ### copy mode
-| function                       | screen       | tmux |
-| ------------------------------ | ------------ | ---- |
-| switch copy mode               | C-a [ or esc |      |
-| page up/down by half of screen | Ctrl - u/d   |      |
-| page up/dwon by a full screen  | Ctrl - b/f   |      |
+| function                       | screen       | tmux              |
+| ------------------------------ | ------------ | ----------------- |
+| switch copy mode               | C-a [ or esc | C-b [, q for quit |
+| page up/down by half of screen | Ctrl - u/d   |                   |
+| page up/dwon by a full screen  | Ctrl - b/f   |                   |
 
 
 
