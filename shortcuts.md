@@ -4,7 +4,7 @@
 | function           | macOS         | Windows and Linux |
 | ------------------ | ------------- | ----------------- |
 | copy line          | ⇧ + ⌥ ↓ / ↑   |                   |
-| delete line        | ⇧ + ⌘ K       |                   |
+| delete line        | ⇧ + ⌘ K       | Ctrl+Shift+K      |
 | foldAll            | ⌘ + K, ⌘ + 0  |                   |
 | unfold All         | ⌘ + K, ⌘ + J  |                   |
 | fold/unfold region | ⌥ + ⌘ + [ / ] |                   |
@@ -21,3 +21,6 @@
 | Expand/collapse block | ⌘ + / ⌘ -       |                   |
 | Navigate bw/fw        | ⌘ + ⌥ ← / ⌘ ⌥ → |                   |
 | Navigate last edit    | ⌘ + ⇧ Backspace |                   |
+| join line             | ⌃ + ⇧ + j       |                   |
+| Move Line Up/Down     | ⌥ ⇧ Up/Down     |                   |
+| Delete Line           | ⌘+Backspace     |                   |
