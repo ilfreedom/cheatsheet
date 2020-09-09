@@ -1,5 +1,6 @@
+# editor shorcuts
 
-## vscode 
+## vscode
 
 | function           | macOS         | Windows and Linux |
 | ------------------ | ------------- | ----------------- |
@@ -7,15 +8,15 @@
 | Copy line          | ⇧ + ⌥ ↓ / ↑   |                   |
 | Delete line        | ⇧ + ⌘ K       | Ctrl+Shift+K      |
 | Join lines         | ⌃ J           |                   |
+| New lines          | ⌘/⌘+⇧ + Enter |                   |
 | FoldAll            | ⌘ + K, ⌘ + 0  |                   |
 | Unfold All         | ⌘ + K, ⌘ + J  |                   |
 | Fold/Unfold region | ⌥ + ⌘ + [ / ] |                   |
 | Multi cursor       | ⌥ + ⌘ ↑/↓     |                   |
 | Toggle word wrap   | ⌥ Z           |                   |
 
-
-
 ## intellij
+
 | function              | macOS           | Windows and Linux |
 | --------------------- | --------------- | ----------------- |
 | Move Line Up/Down     | ⌥ ⇧ Up/Down     |                   |
