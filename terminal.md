@@ -1,7 +1,19 @@
+# terminal shortcut
+
+- [terminal shortcut](#terminal-shortcut)
+  - [screen & tmux](#screen--tmux)
+    - [session](#session)
+    - [split screen](#split-screen)
+    - [window](#window)
+    - [copy mode](#copy-mode)
+  - [terminator & iterm2](#terminator--iterm2)
+    - [tab](#tab)
+    - [split window](#split-window)
 
 ## screen & tmux
 
 ### session
+
 | function                 | screen                                                     | tmux                                   |
 | ------------------------ | ---------------------------------------------------------- | -------------------------------------- |
 | new session              | screen -S session_name                                     | tmux new -s session_name or C-b Ctrl+c |
@@ -18,8 +30,8 @@
 | remote kill all          |                                                            | tmux kill-server                       |
 | clear dead session       | screen -wipe                                               |                                        |
 
+### split screen
 
-### split
 | function             | screen                      | tmux                    |
 | -------------------- | --------------------------- | ----------------------- |
 | split H              | C-a S                       | C-b "                   |
@@ -31,9 +43,8 @@
 | toogle pane zoom     |                             | C-b z                   |
 | switch pane position |                             | C-b {/}                 |
 
-
-
 ### window
+
 | function          | screen          | tmux             |
 | ----------------- | --------------- | ---------------- |
 | create window     | C-a c           | C-b c            |
@@ -46,13 +57,12 @@
 | kill window       | C-a k           | C-b &            |
 
 ### copy mode
+
 | function                       | screen       | tmux              |
 | ------------------------------ | ------------ | ----------------- |
 | switch copy mode               | C-a [ or esc | C-b [, q for quit |
 | page up/down by half of screen | Ctrl - u/d   |                   |
 | page up/dwon by a full screen  | Ctrl - b/f   |                   |
-
-
 
 ## terminator & iterm2
 
@@ -64,7 +74,7 @@
 | Close Tab | ⌘ + W                   |                      |
 | Go to Tab | ⌘ + Number or ⌘ + Arrow | Ctrl+PageUp/PageDown |
 
-### split
+### split window
 
 | function                         | iterms                    | terminator           |
 | -------------------------------- | ------------------------- | -------------------- |
@@ -88,4 +98,3 @@
 | Char Selection Mode in Copy Mode | Ctrl + V                  |                      |
 | Move cursor in Copy Mode         | vim motions               |                      |
 | Copy text in Copy Mode           | Ctrl + K                  |                      |
-|                                  |                           |                      |
