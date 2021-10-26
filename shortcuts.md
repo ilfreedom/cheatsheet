@@ -26,3 +26,4 @@
 | Expand/collapse block | ⌘ + / ⌘ -       |                   |
 | Navigate bw/fw        | ⌘ + ⌥ ← / ⌘ ⌥ → |                   |
 | Navigate last edit    | ⌘ + ⇧ Backspace |                   |
+| open recent file      | ⌘ + E           | Ctrol + E         |
