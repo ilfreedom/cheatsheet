@@ -1,0 +1,35 @@
+
+## system
+- [微软电脑管家官网](<https://pcmanager.microsoft.com>)
+- [HirensBoot](<https://www.hirensbootcd.org/download/>)
+- [PowerToys](<https://github.com/microsoft/PowerToys>)
+- [SpaceSniffer](<https://spacesniffer.en.softonic.com/?&utm_source=SEM&utm_medium=paid&utm_campaign=EN_CA_DSA&gclid=CjwKCAjwx7GYBhB7EiwA0d8oe-okvAcJ-WHi3O0S6aDMdGgrXHw8OWUszoq3xkDRI_kbZymtf0SFDxoCd9EQAvD_BwE>)
+- [磁盘空间分析器](<https://www.jam-software.com/treesize_free?ca=1>)
+- [Ventoy U盘启动](<https://www.ventoy.net>)
+- [Duplicates Cleaner](<https://apps.microsoft.com/store/detail/duplicates-cleaner/9PMXPZ18CZ49?hl=en-us&gl=US>) 
+- [CrystalDiskInfo](<https://crystalmark.info/en/software/crystaldiskinfo/>)
+- [PotPlayer](<https://potplayer.daum.net/>)
+- [图片格式转换器 IrfanView](<https://apps.microsoft.com/store/detail/irfanview/9NL0R0JNNZM0?hl=en-us&amp%3Bgl=US>)
+- [小红伞](<https://www.avira.com/?x-c-channel=partnerize&x-a-medium=1011l158933&utm_source=partnerize&utm_medium=affiliate&utm_content=0&utm_term=lingdu&x-clickref=1011lw9vs2UI>)
+- [dism++](<https://www.majorgeeks.com/files/details/dism.html>)
+- [Dropit](<http://www.dropitproject.com/>)
+- [Sandboxie 沙盒工具](<https://sandboxie-plus.com/>)
+- [Sumatra PDF](<https://www.sumatrapdfreader.org/free-pdf-reader>)
+- [F.lux F 护眼程序](<https://justgetflux.com/>)
+- [Honeyview](<https://www.bandisoft.com/honeyview/>)
+- [🧲搜索](<https://github.com/xiandanin/magnetW/releases>)
+- [Everything 最快的电脑搜索工具](<https://www.voidtools.com/>)
+- [Winder stat](<https://windirstat.net/>)
+
+## download
+- [qbittorrent](<https://www.qbittorrent.org>)
+- [Hitomi Downloader](<https://github.com/KurtBestor/Hitomi-Downloader/releases/tag/v3.7h>)
+- [4k download](<https://www.4kdownload.com/8>)
+- [XDM下载](<https://subhra74.github.io/xdm/>)
+- [APK Downloader](<https://chrome.google.com/webstore/detail/apk-downloader/idkigghdjmipnppaeahkpcoaiphjdccm>)
+- [AntDownload 百度网盘下载神器](<https://www.ozabc.com/ruanjian/504548.html>)
+- [软件下载站](<https://www.fosshub.com>)
+
+## develop
+- [轻量级的文档查看器](<https://brackets.io/>)
+- [安卓手机屏幕镜像](<https://github.com/Genymobile/scrcpy>)
